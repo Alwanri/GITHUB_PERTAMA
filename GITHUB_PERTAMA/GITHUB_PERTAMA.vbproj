@@ -236,6 +236,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="GITHUB_EBEN\COBA_GITHUB.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -412,6 +413,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GITHUB_EBEN\COBA_GITHUB.aspx.designer.vb">
+      <DependentUpon>COBA_GITHUB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GITHUB_EBEN\COBA_GITHUB.aspx.vb">
+      <DependentUpon>COBA_GITHUB.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
